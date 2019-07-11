@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new MyHomePage(
-        channel: new IOWebSocketChannel.connect("ws://echo.websocket.org"),
+        channel: new IOWebSocketChannel.connect("ws://192.168.4.1:81"),
       ),
     );
   }
